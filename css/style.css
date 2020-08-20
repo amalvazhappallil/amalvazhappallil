@@ -10,6 +10,11 @@
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
+
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+
   font-weight: normal;
   font-style: normal;
 }
@@ -20,9 +25,13 @@ html {
 }
 
 body {
-  background: #000000;
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.726)),url(../bg.jpeg);
+ 
+  background-color: #000000;
+  
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",sans-serif;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.4);
   font-weight: 300;
@@ -56,8 +65,9 @@ h1, .page-title h1 {
 }
 
 h2, .section-heading h2 {
-  font-size: 2.424em;
+  font-size: 2.300em;
   color: #22eaaa;
+ 
 }
 
 h3, .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .service .heading, .service.left-icon h3 {
@@ -114,7 +124,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   font-size: 20px;
   display: block;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 800;
   font-family: "Open Sans", sans-serif;
 }
 
